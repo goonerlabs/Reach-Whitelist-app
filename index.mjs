@@ -29,7 +29,7 @@ const commonInteract = {
   console.log(`${receiver} got ${toSu(amt)} SDPAT tokens`);
  }, 
  notifyFailedTransfer: (receiver, amt) => {
-  console.log(`The transfer of ${toSu(amt)} SDPAT tokens was unsuccesful! Because the ${receiver} is not in the whitelist.`);
+  console.log(`The transfer of ${toSu(amt)} SDPAT tokens was unsuccesful! Because ${receiver}'s address is not in the whitelist.`);
  }
 
 };
